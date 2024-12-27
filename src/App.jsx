@@ -11,12 +11,7 @@ function App() {
   const elemets = Data.map(obj => {
     return <Entry
       key={obj.id}
-      img={obj.img}
-      title={obj.title}
-      country={obj.country}
-      googleMapsLink={obj.googleMapsLink} 
-      dates={obj.dates}
-      text={obj.text}
+      entry={obj}
       />
   })
 
